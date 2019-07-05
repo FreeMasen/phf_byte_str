@@ -1,0 +1,11 @@
+[package]
+name = "phf_test"
+version = "0.1.0"
+authors = ["rmasen"]
+edition = "2018"
+
+[dependencies]
+phf = { git = "https://github.com/sfackler/rust-phf", rev = "56ff0090ed04bc4d3bbc06de36884f0dfac0d100" }
+
+[build-dependencies]
+phf_codegen = { git = "https://github.com/sfackler/rust-phf", rev = "56ff0090ed04bc4d3bbc06de36884f0dfac0d100" }
